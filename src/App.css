@@ -1,0 +1,71 @@
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 15px 0 #d4f938;
+  }
+  50% {
+    box-shadow: 0 0 20px 0 #d4f938;
+  }
+  100% {
+    box-shadow: 0 0 15px 0 #d4f938;
+  }
+}
+
+.glow-button {
+  background-color: #d4f938;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  animation: glow 1.5s infinite;
+}
+
+.glow-text {
+  color: #d4f938;
+  text-shadow: 0 0 8px #d4f938, 0 0 10px #d4f938, 0 0 0 #d4f938;
+}
+
+p {
+  font-weight: 600;
+  font-size: large;
+}
+
+.glow-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at center,
+    #ffd700 0%,
+    rgba(255, 215, 0, 0) 70%
+  );
+  z-index: -1;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100vh;
+  background-color: #08130b;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-closed {
+  transform: translateX(-100%);
+}
+
+a {
+  font-size: 24px;
+  padding: 7px 0px;
+}
