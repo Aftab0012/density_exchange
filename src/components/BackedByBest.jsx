@@ -3,7 +3,7 @@ import { FLEX } from '../globalStyles/NavbarStyles';
 
 function BackedByBest() {
   return (
-    <FLEX className="bg-[#010101] min-h-screen pt-56 text-white ">
+    <FLEX className="bg-[#010101] pb-10 min-h-screen pt-56 text-white ">
       <div className="text-3xl font-bold sm:text-5xl">Backed by the Best.</div>
 
       <div className="grid w-[300px] pt-10 sm:w-auto grid-cols-2 gap-4 md:grid-cols-4 place-content-center">

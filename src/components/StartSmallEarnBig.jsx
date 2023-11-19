@@ -2,7 +2,7 @@ import { FLEX } from '../globalStyles/NavbarStyles';
 
 function StartSmallEarnBig() {
   return (
-    <FLEX>
+    <FLEX className="w-auto pb-20">
       <p className="pt-10 text-3xl font-bold leading-5 sm:text-5xl">
         Start Small. Earn Big
       </p>

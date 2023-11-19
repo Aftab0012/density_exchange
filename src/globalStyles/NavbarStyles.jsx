@@ -25,3 +25,12 @@ export const FLEX = styled.div`
     gap: 20px;
   }
 `;
+
+export const GRADIENTTEXT = styled.p`
+  background: linear-gradient(to top, #000000, #000000, #ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+`;

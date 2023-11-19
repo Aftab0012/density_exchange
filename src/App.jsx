@@ -9,10 +9,15 @@ import Chart from './components/Chart';
 import StartSmallEarnBig from './components/StartSmallEarnBig';
 import CreateAccountSteps from './components/CreateAccountSteps';
 import BackedByBest from './components/BackedByBEst';
+import Testimonials1 from './components/Testimonials1';
+import EarnMoneySection from './components/EarnMoneySection';
+import Visionaries from './components/Visionaries';
+import GetStarted from './components/GetStarted';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div className="w-full">
       <DIV className="text-white">
         <img className="h-7 " src="../public/Frame.png" alt="logoImage" />
         <div className="items-center hidden gap-3 center sm:flex">
@@ -58,7 +63,27 @@ function App() {
       <section>
         <BackedByBest />
       </section>
-    </>
+
+      <section>
+        <Testimonials1 />
+      </section>
+
+      <section>
+        <EarnMoneySection />
+      </section>
+
+      <section>
+        <Visionaries />
+      </section>
+
+      <section>
+        <GetStarted />
+      </section>
+
+      <section>
+        <Footer />
+      </section>
+    </div>
   );
 }
 
