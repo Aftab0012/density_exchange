@@ -8,6 +8,10 @@ function HeroSection() {
         <span className="glow-text"> future</span>.
       </p>
 
+      <p className="pt-10 text-xl font-normal text-center text-white">
+        Trade BTC, ETH Futures with 125x leverage and earn rewards.
+      </p>
+
       <section className="flex pt-10 glow-background sm:items-center sm:justify-center w-72 h-72 sm:h-auto sm:w-auto">
         <img
           className="relative left-4"

@@ -6,6 +6,9 @@ import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import FeesCards from './components/FeesCards';
 import Chart from './components/Chart';
+import StartSmallEarnBig from './components/StartSmallEarnBig';
+import CreateAccountSteps from './components/CreateAccountSteps';
+import BackedByBest from './components/BackedByBEst';
 
 function App() {
   return (
@@ -42,6 +45,18 @@ function App() {
 
       <section>
         <Chart />
+      </section>
+
+      <section>
+        <StartSmallEarnBig />
+      </section>
+
+      <section>
+        <CreateAccountSteps />
+      </section>
+
+      <section>
+        <BackedByBest />
       </section>
     </>
   );

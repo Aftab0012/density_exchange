@@ -1,4 +1,3 @@
-import React from 'react';
 import { exchanges } from '../constants';
 
 function FeesCards() {

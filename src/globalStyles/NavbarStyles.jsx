@@ -9,6 +9,19 @@ export const DIV = styled.div`
 
   @media (max-width: 768px) {
     padding: 16px;
-    /* Additional responsive styles if needed */
+  }
+`;
+
+export const FLEX = styled.div`
+  display: flex;
+  width: auto;
+  height: auto;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    gap: 20px;
   }
 `;
