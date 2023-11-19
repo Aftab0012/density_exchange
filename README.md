@@ -55,9 +55,6 @@ Vite is a modern frontend build tool that is fast, efficient, and designed for m
 
 Provide instructions or examples on how to use or customize the project.
 
-## Contributing
-
-If you'd like to contribute, please follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## Note
 
