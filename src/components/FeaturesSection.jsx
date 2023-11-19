@@ -1,4 +1,3 @@
-import React from 'react';
 import { data } from '../constants';
 
 function FeaturesSection() {
@@ -26,7 +25,13 @@ function FeaturesSection() {
       <div className="flex flex-col items-center justify-center gap-20 pt-10 text-white">
         {data.map((item) => (
           <div
-            className="border-[2px] flex flex-col justify-center rounded-3xl items-center  h-[569px] w-[278px]"
+            className="flex flex-col justify-center items-center h-[509px] w-[278px]"
+            style={{
+              border: '2px solid',
+              borderImage:
+                'linear-gradient(to right, #1f2b19, #1f2b19, #001c18) 1',
+              borderRadius: '10px',
+            }}
             key={item.description}
           >
             <img src={item.image} alt="logo" />

@@ -69,3 +69,12 @@ a {
   font-size: 24px;
   padding: 7px 0px;
 }
+
+.bg-effect {
+  background: rgb(122, 240, 41);
+  background: radial-gradient(
+    circle,
+    rgba(122, 240, 41, 1) 0%,
+    rgba(57, 255, 0, 0) 87%
+  );
+}
