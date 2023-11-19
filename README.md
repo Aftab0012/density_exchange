@@ -1,6 +1,6 @@
 ## Note
 
-- I didnt used ##Gatsby because i thought i can showcase my full extent of capability with ##react.
+- I didnt used Gatsby because i thought i can showcase my full extent of capability with react.
 
 # Density Trading Website
 
