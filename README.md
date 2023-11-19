@@ -1,3 +1,7 @@
+## Note
+
+- I didnt used ##Gatsby because i thought i can showcase my full extent of capability with ##react.
+
 # Density Trading Website
 
 Showcasing the power of React and Vite in building a responsive and attractive trading platform.
@@ -56,6 +60,4 @@ Vite is a modern frontend build tool that is fast, efficient, and designed for m
 Provide instructions or examples on how to use or customize the project.
 
 
-## Note
 
-- I didnt used Gatsby because i was thought i can showcase my full extent of capability with react.
